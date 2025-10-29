@@ -1,0 +1,24 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.controls button {
+  background: linear-gradient(90deg, #1976d2 70%, #42a5f5 100%);
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5em 1.3em;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(33, 33, 33, 0.1);
+  cursor: pointer;
+}
+.controls button:disabled {
+  background: #bdbdbd;
+  color: #3e3e3e;
+  cursor: not-allowed;
+}
