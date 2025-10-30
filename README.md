@@ -22,6 +22,14 @@ It displays the vehicle's live position, a growing polyline representing the pat
 
 3. Install dependencies (React, React Leaflet, Leaflet) if using create-react-app or other starter:
 
+### Installations
+rm -rf node_modules package-lock.json
+npm install react@18.2.0 react-dom@18.2.0 react-scripts@5.0.1
+npm install react-leaflet@4.2.1 leaflet@1.9.4
+npm install --save-dev @testing-library/react @testing-library/jest-dom @testing-library/user-event web-vitals
+npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-config-prettier eslint-plugin-prettier prettier @babel/eslint-parser @babel/preset-env @babel/preset-react
+
+
 ## URL LINKS
 1. Published URL: 'https://vehiclemovement.ccbp.tech/'
 2. Video recording URL: "https://www.loom.com/share/0877f8a95b354bb4a9ba62d6999f6920"
@@ -38,25 +46,25 @@ It displays the vehicle's live position, a growing polyline representing the pat
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-leaflet": "4.2.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/user-event": "^14.4.3",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.28.5",
-    "@babel/preset-env": "^7.28.5",
-    "@babel/preset-react": "^7.28.5",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.6.1",
-    "eslint": "^8.57.1",
+    "@babel/eslint-parser": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.21.4",
+    "eslint": "^8.45.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.1.2",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^4.2.5",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "prettier": "^2.8.8",
-    "web-vitals": "^2.1.4"
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -76,7 +84,8 @@ It displays the vehicle's live position, a growing polyline representing the pat
       "last 1 safari version"
     ]
   }
-} 
+}
+
 
 
 # eslintrc
