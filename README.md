@@ -25,8 +25,61 @@ It displays the vehicle's live position, a growing polyline representing the pat
 ## URL LINKS
 1. Published URL: 'https://vehiclemovement.ccbp.tech/'
 2. Video recording URL: "https://www.loom.com/share/0877f8a95b354bb4a9ba62d6999f6920"
+3. Resume URL: 'file:///C:/Users/balu1/Downloads/balaji%20final%20resume.pdf'
 
-#eslintrc
+
+# package.json
+{
+  "name": "vehicle-movement-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "leaflet": "1.9.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "4.2.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.6.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^4.2.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^2.8.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+} 
+
+
+# eslintrc
 
 {
   "parser": "@babel/eslint-parser",
@@ -93,52 +146,3 @@ It displays the vehicle's live position, a growing polyline representing the pat
   }
 }
 
-#package.json
-{
-  "name": "vehicle-movement-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "leaflet": "1.9.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-leaflet": "4.2.1",
-    "react-scripts": "5.0.1"
-  },
-  "devDependencies": {
-    "@babel/eslint-parser": "^7.28.5",
-    "@babel/preset-env": "^7.28.5",
-    "@babel/preset-react": "^7.28.5",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.6.1",
-    "eslint": "^8.57.1",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.1.2",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^4.2.5",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "prettier": "^2.8.8",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
-} 
