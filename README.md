@@ -22,6 +22,9 @@ It displays the vehicle's live position, a growing polyline representing the pat
 
 3. Install dependencies (React, React Leaflet, Leaflet) if using create-react-app or other starter:
 
+## URL LINKS
+1. Published URL: 'https://vehiclemovement.ccbp.tech/'
+2. Video recording URL: "https://www.loom.com/share/0877f8a95b354bb4a9ba62d6999f6920"
 
 #eslintrc
 
